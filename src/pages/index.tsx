@@ -1,13 +1,13 @@
-import AnimatedText from "../Components/AnimatedText";
-import { LinkArrow } from "../Components/Icons";
-import Layout from "../Components/Layout";
+import AnimatedText from "~/Components/AnimatedText";
+import { LinkArrow } from "~/Components/Icons";
+import Layout from "~/Components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Profilepic from "../../public/images/profile/Bg-removed SideImage-Main (1).png";
 import { RiContactsBookFill } from "react-icons/ri";
 import LightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import Transitions from "../Components/Transitions";
+import Transitions from "~/Components/Transitions";
 import { ImUserTie } from "react-icons/im";
 import { GoProject } from "react-icons/go";
 
