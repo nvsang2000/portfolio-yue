@@ -90,7 +90,7 @@ export default function Home() {
                   ABOUT <ImUserTie className="ml-4" />
                 </Link>
                 <Link
-                  href={"mailto:soumyaswaroopsootar@gmail.com"}
+                  href={"mailto:nvsang2670@gmail.com"}
                   // href={"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soumyawaroopsootar@gmail.com"}
                   target="_blank"
                   className="ml-4 flex items-center m-1.5 bg-dark text-light p-2 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"

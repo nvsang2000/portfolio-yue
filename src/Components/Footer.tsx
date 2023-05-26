@@ -15,7 +15,7 @@ const Footer = () => {
           <span className="mt-1">{<AiFillHeart color="red" />}</span>&nbsp;by
           &nbsp;
           <Link
-            href={"https://github.com/soumyasootar"}
+            href={"https://github.com/nvsang260720"}
             className={"underline"}
             target="_blank"
           >
@@ -24,7 +24,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href={"https://www.linkedin.com/in/soumya-swaroop-sootar-a4b708118/"}
+          href={"https://www.linkedin.com/in/nguyen-sang-9b66bb246/"}
           target="_blank"
           className={"underline"}
         >

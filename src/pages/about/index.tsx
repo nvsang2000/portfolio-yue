@@ -55,7 +55,7 @@ const About = () => {
                 BIOGRAPHY
               </h2>
               <p className="font-medium">
-                Hey there! My name is Soumya Swaroop Sootar and I am a Full
+                Hey there! My name is NGUYEN VAN SANG and I am a Full
                 Stack Web Developer with expertise in MERN Development. I
                 specialize in React, Express.js, Next.js,NPM, MongoDB, Chakra
                 UI,Tailwind CSS, Node JS, HTML, CSS, and JavaScript. My strong
