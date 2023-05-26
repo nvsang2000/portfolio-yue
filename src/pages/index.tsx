@@ -39,7 +39,7 @@ export default function Home() {
                 className="!text-6xl  !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               /> */}
               <AnimatedText
-                text="NGUYỄN VĂN SANG "
+                text="NGUYỄN VĂN SANG"
                 className="!text-5xl !-mb-10 !text-left xl:!text-5xl lg:!text-center lg:!text-5xl lg:!mb-1  md:!text-5xl sm:!text-xl sm:!mb-1"
                 fontColour="!text-primary"
               />
