@@ -2,12 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Skill = ({ name, x, y ,link="#"}: any) => {
+  const inView: any = {x:x,y:y,transition:1}
   return (
     <motion.div
       className="flex items-center justify-center rounded-2xl font-semibold bg-dark dark:bg-light dark:text-dark text-light px-5 py-2 shadow-dark cursor-pointer absolute lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold"
       whileHover={{ scale: 1.1}}
       initial={{x:0,y:0}}
-      whileInView={{x:x,y:y,transition:1}}
+      whileInView={inView}
       transition={{duration:1}}
       // viewport={{once:"false"}}
     >

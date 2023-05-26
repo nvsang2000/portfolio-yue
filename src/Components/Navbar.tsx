@@ -36,7 +36,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }: any) => {
 
   return (
     <button
-      href={href}
+      // href={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
       onClick={handleClick}
     >
@@ -55,7 +55,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }: any) => {
 };
 
 const Navbar = () => {
-  const [mode, setMode] = useThemeSwitcher();
+  const [mode, setMode]: any = useThemeSwitcher();
 
   const [isOpen, setIsOpen] = useState(false);
 

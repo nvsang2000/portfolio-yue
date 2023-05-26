@@ -5,14 +5,14 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import zostelimg from "../../public/images/projects/ZOSTEL.png";
-import fabimg from "../../public/images/projects/Faballey.png";
-import shopimg from "../../public/images/projects/Shop.png";
+import zostelimg from "public/images/projects/ZOSTEL.png";
+import fabimg from "public/images/projects/Faballey.png";
+import shopimg from "public/images/projects/Shop.png";
 import Transitions from "~/Components/Transitions";
-import Portfolioimg from "../../public/images/projects/Portfolio.png";
-import Placeprepimg from "../../public/images/projects/Placeprep.com.png";
-import CockTailCompassimg from "../../public/images/projects/CocktailCompass.png";
-import Conversoimg from "../../public/images/projects/Converso.png";
+import Portfolioimg from "public/images/projects/Portfolio.png";
+import Placeprepimg from "public/images/projects/Placeprep.com.png";
+import CockTailCompassimg from "public/images/projects/CocktailCompass.png";
+import Conversoimg from "public/images/projects/Converso.png";
 
 const FeatureProject = ({ type, title, summary, img, github, link }: any) => {
   return (
