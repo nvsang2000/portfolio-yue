@@ -20,7 +20,7 @@ const Footer = () => {
             target="_blank"
           >
             {" "}
-            soumyasootar
+            YUE
           </Link>
         </div>
         <Link
