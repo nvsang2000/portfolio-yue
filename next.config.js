@@ -1,5 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /** @type {import('next').NextConfig} */
+
+const dotenv = require('dotenv');
+
+dotenv.config();
 const nextConfig = {
   reactStrictMode: false,
   // swcMinify: true,

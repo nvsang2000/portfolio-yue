@@ -8,10 +8,8 @@ import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
 const CustomLink = ({ href, title, className }: any) => {
   const router = useRouter();
-  // console.log("router: ", router);
-  // console.log(router.asPath === href);
   return (
-    <Link href={href} className={`${className} relative group`}>
+    <Link href={href} className={`${className} relative group`} target="_blank">
       {title}
 
       <span
@@ -27,8 +25,6 @@ const CustomLink = ({ href, title, className }: any) => {
 };
 const CustomMobileLink = ({ href, title, className = "", toggle }: any) => {
   const router = useRouter();
-  // console.log("router: ", router);
-  // console.log(router.asPath === href);
   const handleClick = () => {
     toggle();
     router.push(href);
@@ -102,14 +98,14 @@ const Navbar = () => {
             className={"ml-4"}
           ></CustomLink>
           <CustomLink
-            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soumyawaroopsootar@gmail.com"
+            href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${process.env.EMAIL_PROFILE}`}
             title={"Contact"}
             className={"ml-6"}
           ></CustomLink>
         </nav>
         <nav className="flex item-center justify-center flex-wrap">
           <motion.a
-            href={"https://github.com/soumyasootar"}
+            href={"https://github.com/nvsang2000"}
             target="_blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -119,7 +115,7 @@ const Navbar = () => {
           </motion.a>
           <motion.a
             href={
-              "https://www.linkedin.com/in/soumya-swaroop-sootar-a4b708118/"
+              `https://www.linkedin.com/in/nguyen-sang-9b66bb246/`
             }
             target="_blank"
             whileHover={{ y: -2 }}
