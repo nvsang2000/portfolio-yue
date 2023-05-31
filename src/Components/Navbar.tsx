@@ -9,9 +9,8 @@ import useThemeSwitcher from "./hooks/useThemeSwitcher";
 const CustomLink = ({ href, title, className }: any) => {
   const router = useRouter();
   return (
-    <Link href={href} className={`${className} relative group`} target="_blank">
+    <Link href={href} className={`${className} relative group`}>
       {title}
-
       <span
         className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5
       group-hover:w-full transition-[width] ease-in-out duration-300 dark:bg-primary
@@ -167,14 +166,14 @@ const Navbar = () => {
             ></CustomMobileLink>
             <CustomMobileLink
               toggle={handlleClick}
-              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soumyawaroopsootar@gmail.com"
+              href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${process.env.EMAIL_PROFILE}`}
               title={"Contact"}
               className={""}
             ></CustomMobileLink>
           </nav>
           <nav className="flex item-center justify-center flex-wrap mt-2">
             <motion.a
-              href={"https://github.com/soumyasootar"}
+              href={"https://github.com/nvsang2000"}
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -184,7 +183,7 @@ const Navbar = () => {
             </motion.a>
             <motion.a
               href={
-                "https://www.linkedin.com/in/soumya-swaroop-sootar-a4b708118/"
+                "https://www.linkedin.com/in/nguyen-sang-9b66bb246/"
               }
               target="_blank"
               whileHover={{ y: -2 }}
