@@ -6,6 +6,15 @@ export default function Document() {
     <Html lang="en">
       <Head >
         <meta name="google-site-verification" content="hBKCTma5IGl6el9qy4ySelxwN4jw0nhjNWNXAS-c7iI" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8D7Q7VT80V"></script>
+        <script>
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-8D7Q7VT80V');
+            `}
+        </script>
       </Head>
       <body>
         <Script id="theme-switcher" strategy="beforeInteractive">
