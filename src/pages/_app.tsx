@@ -4,13 +4,14 @@ import Navbar from "~/Components/Navbar";
 import "~/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-
+import { appWithTranslation } from 'next-i18next';
+import '../utils/i18n';
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont",
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
@@ -30,3 +31,4 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+export default  appWithTranslation(App)

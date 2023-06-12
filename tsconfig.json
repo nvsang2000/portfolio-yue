@@ -25,6 +25,6 @@
       "public/": ["public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/**/*", "src/pages/signup/authApi.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/**/*", "src/pages/signup/authApi.js", "src/i18n/next-i18next.config.ts"],
   "exclude": ["node_modules"]
 }
