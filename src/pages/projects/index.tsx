@@ -1,6 +1,5 @@
-import AnimatedText from "~/Components/AnimatedText";
+import { AnimatedText, Layout } from "~/Components";
 import { GithubIcon } from "~/Components/Icons";
-import Layout from "~/Components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";

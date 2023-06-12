@@ -9,7 +9,7 @@ function Svg({
   fill = "#029147",
   onClick = (e: any) => e,
 }) {
-  const RequiredSvg = dynamic(import(`public/svg/${name}.svg`));
+  const RequiredSvg = dynamic(import(`../public/svg/${name}.svg`));
 
   if (typeof RequiredSvg == "object") {
     return (

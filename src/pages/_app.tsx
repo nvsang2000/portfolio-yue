@@ -1,11 +1,11 @@
-import { AppProps } from "next/app";
-import Footer from "~/Components/Footer";
-import Navbar from "~/Components/Navbar";
 import "~/styles/globals.css";
+import '../utils/i18n';
+import { AppProps } from "next/app";
+import { Footer, Navbar } from "~/Components";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import { appWithTranslation } from 'next-i18next';
-import '../utils/i18n';
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont",

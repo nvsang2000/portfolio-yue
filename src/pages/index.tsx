@@ -1,4 +1,4 @@
-import AnimatedText from "~/Components/AnimatedText";
+import { AnimatedText } from "~/Components";
 import { LinkArrow } from "~/Components/Icons";
 import Layout from "~/Components/Layout";
 import Head from "next/head";
@@ -6,12 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Profilepic from "public/images/profile/developer-pic-1.png";
 import { RiContactsBookFill } from "react-icons/ri";
-import LightBulb from "public/images/svgs/miscellaneous_icons_1.svg";
-import Transitions from "~/Components/Transitions";
+import { Transitions } from "~/Components";
 import { ImUserTie } from "react-icons/im";
 import { GoProject } from "react-icons/go";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "~/Components/LanguageSwitcher";
+import { LanguageSwitcher } from "~/Components";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -106,13 +105,6 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <div className="absolute w-24 right-8 bottom-1  inline-block">
-          <Image
-            src={LightBulb}
-            alt="Bulb"
-            className="w-full h-auto md:hidden"
-          />
-        </div>
       </main>
     </>
   );
