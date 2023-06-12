@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="vie">
       <Head >
         <meta name="google-site-verification" content="hBKCTma5IGl6el9qy4ySelxwN4jw0nhjNWNXAS-c7iI" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-8D7Q7VT80V"></script>

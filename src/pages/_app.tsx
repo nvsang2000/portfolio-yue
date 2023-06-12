@@ -1,5 +1,5 @@
 import "~/styles/globals.css";
-import '../utils/i18n';
+import '~/utils/i18n';
 import { AppProps } from "next/app";
 import { Footer, Navbar } from "~/Components";
 import { Montserrat } from "next/font/google";

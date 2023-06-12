@@ -6,8 +6,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const nextConfig = {
   reactStrictMode: false,
-  // swcMinify: true,
-
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

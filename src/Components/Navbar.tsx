@@ -5,6 +5,7 @@ import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from "./Icons";
 import Logo from "./Logo";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const CustomLink = ({ href, title, className }: any) => {
   const router = useRouter();
@@ -66,24 +67,22 @@ const Navbar = () => {
         onClick={handlleClick}
       >
         <span
-          className={`bg-dark transition-all duration-0.6 dark:bg-light block h-0.5 rounded-sm w-6 -translate-y-0.5  ${
-            isOpen ? `rotate-45 translate-y-2` : `-translate-y-0.5`
-          } `}
+          className={`bg-dark transition-all duration-0.6 dark:bg-light block h-0.5 rounded-sm w-6 -translate-y-0.5  ${isOpen ? `rotate-45 translate-y-2` : `-translate-y-0.5`
+            } `}
         ></span>
         <span
-          className={`bg-dark transition-all duration-0.6 dark:bg-light block h-0.5 rounded-sm w-6 my-0.5 ${
-            isOpen ? ` opacity-0` : ` opacity-100`
-          }`}
+          className={`bg-dark transition-all duration-0.6 dark:bg-light block h-0.5 rounded-sm w-6 my-0.5 ${isOpen ? ` opacity-0` : ` opacity-100`
+            }`}
         ></span>
         <span
-          className={`bg-dark transition-all duration-0.6 dark:bg-light block h-0.5 rounded-sm w-6 translate-y-0.5 ${
-            isOpen ? `-rotate-45 -translate-y-1` : `translate-y-0.5`
-          }`}
+          className={`bg-dark transition-all duration-0.6 dark:bg-light block h-0.5 rounded-sm w-6 translate-y-0.5 ${isOpen ? `-rotate-45 -translate-y-1` : `translate-y-0.5`
+            }`}
         ></span>
       </button>
 
       {/* large screen */}
       <div className="w-full flex justify-between items-center lg:hidden">
+
         <nav>
           <CustomLink href="/" title={"Home"} className={"mr-4"}></CustomLink>
           <CustomLink
@@ -123,8 +122,6 @@ const Navbar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          {/* darktheme button  */}
-          {/*mode === "light" ? "bg-light text-dark" : "bg-dark text-light"*/}
           <button
             className={`ml-4 flex items-center justify-center rounded-full p-1`}
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -135,6 +132,9 @@ const Navbar = () => {
               <MoonIcon className={"fill-dark"} />
             )}
           </button>
+          <div className="ml-4">
+            <LanguageSwitcher />
+          </div>
         </nav>
       </div>
 
@@ -195,9 +195,8 @@ const Navbar = () => {
             {/* darktheme button  */}
             {/*mode === "light" ? "bg-light text-dark" : "bg-dark text-light"*/}
             <button
-              className={`ml-4 flex items-center justify-center rounded-full p-1 ${
-                mode === "light" ? "bg-light text-dark" : "bg-dark text-light"
-              }`}
+              className={`ml-4 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-light text-dark" : "bg-dark text-light"
+                }`}
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
             >
               {mode === "dark" ? (
