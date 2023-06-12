@@ -206,6 +206,9 @@ const Navbar = () => {
               )}
             </button>
           </nav>
+          <nav className="flex item-center justify-center flex-wrap mt-4">
+            <LanguageSwitcher />
+          </nav>
         </motion.div>
       ) : null}
       <div className="absolute top-2 left-[50%] translate-x-[-50%]">
