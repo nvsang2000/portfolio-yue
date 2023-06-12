@@ -1,6 +1,11 @@
 {
-    "HOME": "trang chủ",
-    "NGUYEN_VAN_SANG": "NGUYỄN VĂN SANG",
+    "home": "trang chủ",
+    "about": "giới thiệu",
+    "projects": "dự án",
+    "contract": "liên hệ",
+    "full_name": "NGUYỄN VĂN SANG",
     "MERN_DEVELOPER": "FULLSTACK DEVELOPER",
-    "description_1":"Là một Nhà phát triển Full-Stack, tôi thành thạo về Phát triển web, Phát triển MERN, Phát triển phụ trợ."
+    "home_description_1" : "Là một Nhà phát triển Full-Stack, tôi thành thạo về Phát triển web, Phát triển MERN, Phát triển phụ trợ.",
+    "home_description_2": "Với mối quan tâm trước đó về UX và UI, tôi cũng thành thạo trong việc tạo các thiết kế web hiệu quả, hiệu quả và hấp dẫn.",
+    "home_description_3" : "Vui lòng khám phá các công việc trước đây của tôi trong phần Dự án thể hiện chuyên môn của tôi trong lĩnh vực này một cách thích hợp."
 }

@@ -1,4 +1,4 @@
-import { AnimatedText, Transitions, LanguageSwitcher, Layout } from "~/Components";
+import { AnimatedText, Transitions, Layout } from "~/Components";
 import { LinkArrow } from "~/Components/Icons";
 import Head from "next/head";
 import Image from "next/image";
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text={t('NGUYEN_VAN_SANG')}
+                text={t('full_name')}
                 className="!text-5xl !-mb-10 !text-left xl:!text-5xl lg:!text-center lg:!text-5xl lg:!mb-1  md:!text-5xl sm:!text-xl sm:!mb-1"
                 fontColour="!text-primary"
               />
@@ -44,13 +44,9 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <ul className="my-4 text-base font-medium md:text-sm sm:text-xs ">
-                <li className="m-1">{t('description_1')}</li>
-                <li className="m-1">  With prior
-                interest in UX and UI, I also have a proficiency in creating
-                efficient, effective and engaging web designs.</li>
-                <li className="m-1">  Kindly, explore
-                my previous works in Projects section that appropriately
-                showcases my expertise in the field.</li>
+                <li className="m-1">{t('home_description_1')}</li>
+                <li className="m-1">{t('home_description_2')}</li>
+                <li className="m-1">{t('home_description_3')}</li>
               </ul>
               <div className="flex flex-wrap  items-center self-start mt-2 lg:self-center">
                 <Link

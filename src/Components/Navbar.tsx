@@ -6,11 +6,12 @@ import Logo from "./Logo";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 const CustomLink = ({ href, title, className }: any) => {
   const router = useRouter();
   return (
-    <Link href={href} className={`${className} relative group`}>
+    <Link href={href} className={`${className} relative group uppercase`}>
       {title}
       <span
         className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5
@@ -51,6 +52,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }: any) => {
 };
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [mode, setMode]: any = useThemeSwitcher();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -84,20 +86,20 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center lg:hidden">
 
         <nav>
-          <CustomLink href="/" title={"Home"} className={"mr-4"}></CustomLink>
+          <CustomLink href="/" title={t('home')} className={"mr-4"}></CustomLink>
           <CustomLink
             href="/about"
-            title={"About"}
+            title={t('about')}
             className={"mx-4"}
           ></CustomLink>
           <CustomLink
             href="/projects"
-            title={"Projects"}
+            title={t('projects')}
             className={"ml-4"}
           ></CustomLink>
           <CustomLink
             href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${process.env.EMAIL_PROFILE}`}
-            title={"Contact"}
+            title={t('contract')}
             className={"ml-6"}
           ></CustomLink>
         </nav>
