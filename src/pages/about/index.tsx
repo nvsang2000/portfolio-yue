@@ -51,31 +51,15 @@ const About = () => {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase tex-dark/75 dark:text-primary">
-                {t(LANGUAGE_DESCRIPTION.home)}
+                {t(LANGUAGE_DESCRIPTION.about_biography)}
               </h2>
-              <p className="font-medium">
-                Hey there! My name is NGUYEN VAN SANG and I am a Full
-                Stack Web Developer with expertise in MERN Development. I
-                specialize in React, Express.js, Next.js,NPM, MongoDB, Chakra
-                UI,Tailwind CSS, Node JS, HTML, CSS, and JavaScript. My strong
-                collaboration and problem-solving skills were developed through
-                team projects, and I am highly motivated to apply my technical
-                skills to new and exciting projects.
-              </p>
-
+              <p className="font-medium">{t(LANGUAGE_DESCRIPTION.about_biography_description_1)}</p>
               <p className="font-medium my-4">
-                Some of my notable clone projects include ZOSTEL, a hostel
-                booking website with 60+ destinations across India and Nepal,
-                and FABALLEY, an Indian fashion e-commerce website with
-                thousands of trendy and affordable fashion options. I also
-                worked on cloning SHOP.COM, an online shopping website that
-                offers thousands of products from various retailers.
+                {t(LANGUAGE_DESCRIPTION.about_biography_description_2)}
               </p>
 
               <p className="font-medium">
-                Overall,I am a friendly and dedicated developer who is always
-                eager to take on new challenges and exceed expectations. I look
-                forward to working with you!
+                {t(LANGUAGE_DESCRIPTION.about_biography_description_3)}
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 rounded-br-xl border-solid border-dark bg-light p-3 dark:bg-dark dark:border-primaryDark xl:col-span-4 md:order-1 md:col-span-8" >
