@@ -4,6 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import ProfilePic from "public/images/profile/profile.jpg";
+import { useTranslation } from "react-i18next";
+import { LANGUAGE_DESCRIPTION } from "~/constants";
 
 const AnimatedNumbers = ({ value }: any) => {
   const ref = useRef<any>(null);
@@ -32,6 +34,7 @@ const AnimatedNumbers = ({ value }: any) => {
 };
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Head>
@@ -42,13 +45,13 @@ const About = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text={"Passion Fuels Purpose! "}
+            text={t(LANGUAGE_DESCRIPTION.about_title)}
             className="mb-16 lg:!text-7xl md:!text-6xl sm:!text-4xl sm:!mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase tex-dark/75 dark:text-primary">
-                BIOGRAPHY
+                {t(LANGUAGE_DESCRIPTION.home)}
               </h2>
               <p className="font-medium">
                 Hey there! My name is NGUYEN VAN SANG and I am a Full

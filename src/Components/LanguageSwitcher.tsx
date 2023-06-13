@@ -14,7 +14,7 @@ function LanguageSwitcher() {
   return (
     <Select
       style={{ width: 120 }}
-      defaultValue={'vie'}
+      defaultValue={i18n.language ? i18n.language : 'vie'}
       onChange={handleLanguageChange}
       options={[
         { value: 'en', label: 'English' },

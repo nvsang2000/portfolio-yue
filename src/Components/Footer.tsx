@@ -23,13 +23,6 @@ const Footer = () => {
             YUE
           </Link>
         </div>
-        <Link
-          href={"https://www.linkedin.com/in/nguyen-sang-9b66bb246/"}
-          target="_blank"
-          className={"underline"}
-        >
-          Say Hello <span className="no-underline">😊</span>{" "}
-        </Link>
       </Layout>
       <HireMe/>
    

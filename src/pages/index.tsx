@@ -8,6 +8,7 @@ import { RiContactsBookFill } from "react-icons/ri";
 import { ImUserTie } from "react-icons/im";
 import { GoProject } from "react-icons/go";
 import { useTranslation } from "react-i18next";
+import { LANGUAGE_DESCRIPTION } from "~/constants";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -27,26 +28,24 @@ export default function Home() {
                 alt={"DEVELOPER IMAGE"}
                 className="w-full h-auto lg:w-full md:inline-block md:w-full"
                 priority
-                sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              50vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text={t('full_name')}
+                text={t(LANGUAGE_DESCRIPTION.full_name)}
                 className="!text-5xl !-mb-10 !text-left xl:!text-5xl lg:!text-center lg:!text-5xl lg:!mb-1  md:!text-5xl sm:!text-xl sm:!mb-1"
                 fontColour="!text-primary"
               />
               <AnimatedText
-                text={t('MERN_DEVELOPER')}
+                text={t(LANGUAGE_DESCRIPTION.mern_developer)}
                 fontColour="!text-yellow-500"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <ul className="my-4 text-base font-medium md:text-sm sm:text-xs ">
-                <li className="m-1">{t('home_description_1')}</li>
-                <li className="m-1">{t('home_description_2')}</li>
-                <li className="m-1">{t('home_description_3')}</li>
+                <li className="m-1">{t(LANGUAGE_DESCRIPTION.home_description_1)}</li>
+                <li className="m-1">{t(LANGUAGE_DESCRIPTION.home_description_2)}</li>
+                <li className="m-1">{t(LANGUAGE_DESCRIPTION.home_description_3)}</li>
               </ul>
               <div className="flex flex-wrap  items-center self-start mt-2 lg:self-center">
                 <Link
