@@ -2,7 +2,7 @@ import Transitions from './Transitions'
 import Logo from './Logo'
 import LanguageSwitcher from './LanguageSwitcher'
 import AnimatedText from './AnimatedText'
-import Education from './Education'
+import WorkExperience from './WorkExperience'
 import Footer from './Footer'
 import HireMe from './HireMe'
 import Layout from './Layout'
@@ -15,7 +15,7 @@ export {
     Logo,
     LanguageSwitcher,
     AnimatedText,
-    Education,
+    WorkExperience,
     Footer,
     HireMe,
     Layout,

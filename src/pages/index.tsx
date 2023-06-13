@@ -4,8 +4,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Profilepic from "public/images/profile/developer-pic-1.png";
-import { RiContactsBookFill } from "react-icons/ri";
-import { ImUserTie } from "react-icons/im";
 import { GoProject } from "react-icons/go";
 import { useTranslation } from "react-i18next";
 import { LANGUAGE_DESCRIPTION } from "~/constants";
@@ -51,32 +49,17 @@ export default function Home() {
                 <Link
                   href="/cv_yue.pdf"
                   target={"_blank"}
-                  className="flex items-center m-1.5 bg-dark text-light p-2 px-6 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
+                  className="uppercase flex items-center m-1.5 bg-dark text-light p-2 px-6 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
-                  RESUME <LinkArrow />
+                  {t(LANGUAGE_DESCRIPTION.resume)} <LinkArrow />
                 </Link>
                 <Link
                   href={"/projects"}
                   target="_self"
-                  className="ml-4 flex items-center m-1.5 bg-dark text-light p-2 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
+                  className="uppercase ml-4 flex items-center m-1.5 bg-dark text-light p-2 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
                 >
-                  PROJECT <GoProject className="ml-2" />
-                </Link>
-                <Link
-                  href="/about"
-                  target={"_self"}
-                  className="flex items-center m-1.5  bg-dark text-light p-2 w-[130px] rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
-                >
-                  ABOUT <ImUserTie className="ml-4" />
-                </Link>
-                <Link
-                  href={"mailto:nvsang2670@gmail.com"}
-                  target="_blank"
-                  className="ml-4 flex items-center m-1.5 bg-dark text-light p-2 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
-                >
-                  CONTACT
-                  <RiContactsBookFill className="ml-2" />
+                  {t(LANGUAGE_DESCRIPTION.projects)} <GoProject className="ml-2" />
                 </Link>
               </div>
               <div className="flex items-center self-start mt-2 lg:self-center"></div>

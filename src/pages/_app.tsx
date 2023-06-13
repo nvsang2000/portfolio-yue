@@ -1,7 +1,7 @@
 import "~/styles/globals.css";
 import '~/i18n';
 import { AppProps } from "next/app";
-import { Footer, Navbar } from "~/Components";
+import { HireMe, Navbar } from "~/Components";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import { appWithTranslation } from 'next-i18next';
@@ -23,7 +23,8 @@ function App({ Component, pageProps }: AppProps) {
       >
         <Navbar />
         <Component {...pageProps} />
-        <Footer/>
+        {/* <Footer/> */}
+        <HireMe/>
       </main>
     </>
   );

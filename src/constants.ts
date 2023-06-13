@@ -1,4 +1,5 @@
 export const LANGUAGE_DESCRIPTION = {
+    resume: 'resume',
     home: 'home',
     about: 'about',
     projects: 'projects',

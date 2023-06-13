@@ -14,9 +14,11 @@ import {
   home_description_3,
   mern_developer,
   projects,
+  resume,
 } from "../content";
 
 const en = {
+  [LANGUAGE_DESCRIPTION.resume]: resume.en,
   [LANGUAGE_DESCRIPTION.home]: home.en,
   [LANGUAGE_DESCRIPTION.about]: about.en,
   [LANGUAGE_DESCRIPTION.projects]: projects.en,

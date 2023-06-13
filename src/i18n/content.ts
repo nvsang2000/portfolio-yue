@@ -2,6 +2,10 @@ export const home = {
     en: 'home',
     vie: 'trang chủ'
 }
+export const resume = {
+    en: 'resume ',
+    vie: 'cv '
+}
 export const about = {
     en: 'about',
     vie: 'giới thiệu'
@@ -33,24 +37,23 @@ export const about_biography = {
 export const home_description_1 = {
     en: `As a Full-Stack Developer, 
     I am well versed in Web Development,
-    MERN Development,Backend Development.`,
-    vie: `Là một Nhà phát triển Full-Stack, 
-    tôi thành thạo về Phát triển web, Phát triển MERN, 
-    Phát triển phụ trợ.`
+    MERN Development, Backend Development.`,
+    vie: `Là một lập trình viên Full-Stack, 
+    tôi thành thạo về lập trình Website, Frontend và Backend.`
 }
 export const home_description_2 = {
-    en: `With prior interest in UX and UI, 
-    I also have a proficiency in creating efficient, 
-    effective and engaging web designs.`,
-    vie: `Với mối quan tâm trước đó về UX và UI, 
-    tôi cũng thành thạo trong việc tạo các thiết kế web hiệu quả, 
-    hiệu quả và hấp dẫn.`
+    en: `With previous interest in Reactjs/React Native ,
+    I also have internships and work at some companies to create apps
+    meet the needs of system management.`,
+    vie: `Với mối quan tâm trước đó về Reactjs/React Native , 
+    tôi cũng có thực tập và làm việc tại một số công ty để tạo ra những ứng dụng 
+    đáp ứng cho nhu cầu quản lí hệ thống.`
 }
 export const home_description_3 = {
     en: `Kindly, explore my previous works in Projects section that appropriately 
     showcases my expertise in the field.`,
-    vie: `Vui lòng khám phá các công việc trước đây của 
-    tôi trong phần Dự án thể hiện chuyên môn của tôi trong lĩnh vực này một cách thích hợp.`
+    vie: `Bạn có thể khám phá các công việc trước đây của 
+    tôi trong phần dự án thể hiện chuyên môn của tôi trong lĩnh vực này một cách thích hợp.`
 }
 export const about_biography_description_1 = {
     en: `Hey there! My name is NGUYEN VAN SANG and I am a Full
