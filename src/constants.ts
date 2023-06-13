@@ -14,5 +14,5 @@ export const LANGUAGE_DESCRIPTION = {
     about_biography_description_1: 'about_biography_description_1',
     about_biography_description_2: 'about_biography_description_2',
     about_biography_description_3: 'about_biography_description_3',
-
+    about_work_experience_plan_1: 'about_work_experience_plan_1'
 }

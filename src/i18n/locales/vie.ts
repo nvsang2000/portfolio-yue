@@ -6,6 +6,7 @@ import {
   about_biography_description_2,
   about_biography_description_3,
   about_title,
+  about_work_experience_plan_1,
   contract,
   full_name,
   home,
@@ -36,6 +37,7 @@ const vie = {
     about_biography_description_2.vie,
   [LANGUAGE_DESCRIPTION.about_biography_description_3]:
     about_biography_description_3.vie,
+    [LANGUAGE_DESCRIPTION.about_work_experience_plan_1]: about_work_experience_plan_1.vie
 };
 
 export default vie;

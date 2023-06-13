@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { useScroll, motion } from "framer-motion";
 import LiIcon from "./LiIcon";
+import { useTranslation } from "react-i18next";
+import { LANGUAGE_DESCRIPTION } from "~/constants";
 
 const Details = ({ type, time, place, info }: any) => {
   const ref = useRef(null);
@@ -26,6 +28,7 @@ const Details = ({ type, time, place, info }: any) => {
 };
 
 const WorkExperience = () => {
+  const { t } = useTranslation();
   const ref1 = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref1,
@@ -49,10 +52,10 @@ const WorkExperience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between xs:ml-2">
           <Details
-            type="Full Stack Web Development"
-            time="Aug 2022 - Apr 2023 "
-            place=" Masai School , Bangalore "
-            info="Completed 1200+ Hours of coursework in topics such as JAVA,DATA STRUCTURE AND ALGORITHMS, REACT ,REDUX ,NODE.JS ,EXPRESS.JS ,MONGODB ,MONGOOSE ,NEXT.JS."
+            type="UFO Technology and trading company limited"
+            time="July 2022 - February 2023 "
+            place=" Frontend Dev"
+            info={t(LANGUAGE_DESCRIPTION.about_work_experience_plan_1)}
           />
           <Details
             type="Bachelor Of Technology In Agricultural Engineering"

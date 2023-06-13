@@ -97,3 +97,36 @@ export const about_biography_description_3 = {
     về phía trước để làm việc với bạn!
     `
 }
+
+export const about_work_experience_plan_1 = {
+    vie: `
+    <p>Tham gia xây dựng hệ thống nội bộ của công ty </p>.
+     - Tôi đã sử dụng useHook, móc tùy chỉnh, thành phần tùy chỉnh, useSWR để tìm nạp và
+     lắng nghe sự thay đổi dữ liệu trong quá trình thực hiện dự án.
+     - Xây dựng hệ thống quản lý thương mại điện tử: 
+     + ngôn ngữ và công nghệ sử dụng: Reactjs, Nextjs Framework, Tailwind css, Ant
+     + Xây dựng các chức năng: Quản lý sản xuất, Quản lý sản phẩm, Đặt hàng...
+     + Dự án được thực hiện trong 4 tháng.
+     + Link Website: https://stag.insight.foodmap.asia/
+     - Xây dựng hệ thống quản lý kho:
+     + ngôn ngữ và công nghệ sử dụng: React Navite, Reactjs, Nextjs, Ant DesignBuild an
+     ứng dụng android và một số trang trong website quản trị
+     + Dự án được thực hiện trong 3 tháng.
+     + Link Website: https://stag-admin.efarm.asia/
+    `,
+    en: `
+    Participating in building the company's internal system.
+    - I have used useHook, custom hook, custom component, useSWR to fetch and
+    listen for data changes during the project implementation.
+    - Building an e-commerce management system:
+    + language and technology used: Reactjs, Nextjs Framework, Tailwind css, Ant
+    + Build functions: Producer management, Product management, Order...
+    + Project was implemented in 4 months.
+    + Link Website: https://stag.insight.foodmap.asia/
+    - Building warehouse management system:
+    + language and technology used: React Navite, Reactjs, Nextjs, Ant DesignBuild an
+    android application and some pages in the admin website
+    + Project was implemented in 3 months.
+    + Link Website: https://stag-admin.efarm.asia/
+    `
+}
