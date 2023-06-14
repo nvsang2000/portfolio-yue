@@ -7,6 +7,7 @@ import {
   about_biography_description_3,
   about_title,
   about_work_experience_plan_1,
+  about_work_experience_plan_2,
   contract,
   full_name,
   home,
@@ -33,9 +34,14 @@ const en = {
   [LANGUAGE_DESCRIPTION.about_biography]: about_biography.en,
   [LANGUAGE_DESCRIPTION.about_biography_description_1]:
     about_biography_description_1.en,
-  [LANGUAGE_DESCRIPTION.about_biography_description_2]: about_biography_description_2.en,
-  [LANGUAGE_DESCRIPTION.about_biography_description_3]: about_biography_description_3.en,
-  [LANGUAGE_DESCRIPTION.about_work_experience_plan_1]: about_work_experience_plan_1.en
+  [LANGUAGE_DESCRIPTION.about_biography_description_2]:
+    about_biography_description_2.en,
+  [LANGUAGE_DESCRIPTION.about_biography_description_3]:
+    about_biography_description_3.en,
+  [LANGUAGE_DESCRIPTION.about_work_experience_plan_1]:
+    about_work_experience_plan_1.en,
+  [LANGUAGE_DESCRIPTION.about_work_experience_plan_2]:
+    about_work_experience_plan_2.en,
 };
 
 export default en;
