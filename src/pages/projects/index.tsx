@@ -47,7 +47,7 @@ const FeatureProject = ({ type, title, summary, img, github, link }: any) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light">{summary}</p>
+        <div className="my-2 font-medium text-dark dark:text-light">{summary} </div>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
             {" "}
@@ -94,9 +94,9 @@ const Project = ({ type, title, summary, img, github, link }: any) => {
               {title}
             </h2>
           </Link>
-          <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          <div className="my-2 font-medium text-dark dark:text-light sm:text-sm">
             {summary}
-          </p>
+           </div>
           <div className="w-full justify-between mt-2 flex items-center">
             <Link href={github} target="_blank" className="w-10 md:w-6">
               {" "}

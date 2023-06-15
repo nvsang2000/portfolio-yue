@@ -53,14 +53,13 @@ const About = () => {
               <h2 className="mb-4 text-lg font-bold uppercase tex-dark/75 dark:text-primary">
                 {t(LANGUAGE_DESCRIPTION.about_biography)}
               </h2>
-              <p className="font-medium">{t(LANGUAGE_DESCRIPTION.about_biography_description_1)}</p>
-              <p className="font-medium my-4">
+              <div className="font-medium">{t(LANGUAGE_DESCRIPTION.about_biography_description_1)} </div>
+              {/* <div className="font-medium my-4">
                 {t(LANGUAGE_DESCRIPTION.about_biography_description_2)}
-              </p>
-
-              <p className="font-medium">
+               </div> */}
+              <div className="font-medium">
                 {t(LANGUAGE_DESCRIPTION.about_biography_description_3)}
-              </p>
+               </div>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 rounded-br-xl border-solid border-dark bg-light p-3 dark:bg-dark dark:border-primaryDark xl:col-span-4 md:order-1 md:col-span-8" >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-primary " />
