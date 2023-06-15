@@ -40,7 +40,6 @@ const en = {
   [LANGUAGE_DESCRIPTION.about_biography]: about_biography.en,
   [LANGUAGE_DESCRIPTION.about_biography_description_1]:
     about_biography_description_1.en,
-<<<<<<< HEAD
   [LANGUAGE_DESCRIPTION.about_biography_description_2]: about_biography_description_2.en,
   [LANGUAGE_DESCRIPTION.about_biography_description_3]: about_biography_description_3.en,
   [LANGUAGE_DESCRIPTION.about_work_experience_plan_1]: about_work_experience_plan_1.en,
@@ -49,7 +48,6 @@ const en = {
   [LANGUAGE_DESCRIPTION.about_biography_at_the_company]: about_biography_at_the_company.en,
   [LANGUAGE_DESCRIPTION.about_biography_off_code]: about_biography_off_code.en,
 
-=======
   [LANGUAGE_DESCRIPTION.about_biography_description_2]:
     about_biography_description_2.en,
   [LANGUAGE_DESCRIPTION.about_biography_description_3]:
@@ -58,7 +56,6 @@ const en = {
     about_work_experience_plan_1.en,
   [LANGUAGE_DESCRIPTION.about_work_experience_plan_2]:
     about_work_experience_plan_2.en,
->>>>>>> 2419591fdd6a27227bf7c6a6b8003aeda7bb02ca
 };
 
 export default en;
