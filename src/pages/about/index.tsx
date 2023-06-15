@@ -80,7 +80,7 @@ const About = () => {
                   <AnimatedNumbers value={5000} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-primaryDark xl:items-center md:text-lg sm:text-base xs:text-sm">
-                  Hours of Coding{" "}
+                  {t(LANGUAGE_DESCRIPTION.about_biography_off_code)}
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -88,7 +88,7 @@ const About = () => {
                   <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-primaryDark xl:items-center md:text-lg sm:text-base xs:text-sm">
-                  at the company
+                {t(LANGUAGE_DESCRIPTION.about_biography_at_the_company)}
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -96,7 +96,7 @@ const About = () => {
                   <AnimatedNumbers value={5} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-primaryDark xl:items-center md:text-lg sm:text-base xs:text-sm">
-                  Projects
+                  {t(LANGUAGE_DESCRIPTION.projects)}
                 </h2>
               </div>
             </div>

@@ -18,6 +18,14 @@ export const contract = {
     en: 'contract',
     vie: 'liên hệ'
 }
+export const skill = {
+    en: 'skill',
+    vie: 'kĩ năng'
+}
+export const work_experience = {
+    en: 'work experience',
+    vie: 'kinh nghiệm'
+}
 export const full_name = {
     en: 'NGUYEN VAN SANG',
     vie: 'NGUYỄN VĂN SANG'
@@ -33,6 +41,14 @@ export const about_title = {
 export const about_biography = {
     en: 'biography',
     vie: 'tiểu sử'
+}
+export const about_biography_at_the_company = {
+   en: 'at the company',
+   vie: 'tại công ty'
+}
+export const about_biography_off_code = {
+    en: 'Hours of Coding',
+    vie: 'Giờ Viết Code'
 }
 export const home_description_1 = {
     en: `As a Full-Stack Developer, 
