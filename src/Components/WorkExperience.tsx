@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { useScroll, motion } from "framer-motion";
 import LiIcon from "./LiIcon";
 import { useTranslation } from "react-i18next";
-import { LANGUAGE_DESCRIPTION } from "~/constants";
+import { LANGUAGE_DESCRIPTION, SPLIT_STRING } from "~/constants";
 
 const Details = ({ type, time, place, info }: any) => {
   const ref = useRef(null);
@@ -29,6 +29,8 @@ const Details = ({ type, time, place, info }: any) => {
 
 const WorkExperience = () => {
   const { t } = useTranslation();
+  const workExperiencePlan1 = t(LANGUAGE_DESCRIPTION.about_work_experience_plan_1)
+  const workExperiencePlan2 = t(LANGUAGE_DESCRIPTION.about_work_experience_plan_2)
   const ref1 = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref1,
@@ -44,7 +46,6 @@ const WorkExperience = () => {
       </h2>
 
       <div ref={ref1} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
-        {/* scrolling  */}
         <motion.div
           style={{scaleY:scrollYProgress}}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-primary md:w-[2px] md:left-[30px] xs:left-[20px]" 
@@ -54,20 +55,24 @@ const WorkExperience = () => {
           <Details
             type="UFO Technology and trading company limited"
             time="July 2022 - February 2023 "
-            place=" Frontend Dev"
-            info={t(LANGUAGE_DESCRIPTION.about_work_experience_plan_1)}
+            place=" Frontend Developer"
+            info={
+              workExperiencePlan1.split(SPLIT_STRING).map((value, index) => {
+                return(
+                  <div key={index}>{value}</div>
+                )
+            })}
           />
           <Details
-            type="Bachelor Of Technology In Agricultural Engineering"
-            time="2018-2022 "
-            place=" College Of Agricultural Engineering and Technology (C.A.E.T.) , OUAT"
-            info="Bhubaneswar,Odisha,India"
-          />
-          <Details
-            type="12th board (CBSE)"
-            time="2018 "
-            place=" SAI INTERNATIONAL SCHOOL"
-            info="Bhubaneswar,Odisha,India"
+            type="Conceptcube Viet Nam company limited"
+            time="January 2022 - September 2022 "
+            place=" Android / Backend Developer"
+            info={
+              workExperiencePlan2.split(SPLIT_STRING).map((value, index) => {
+                return(
+                  <div key={index}>{value}</div>
+                )
+            })}
           />
         </ul>
       </div>

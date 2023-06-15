@@ -116,19 +116,19 @@ export const about_biography_description_3 = {
 
 export const about_work_experience_plan_1 = {
     vie: `
-    <p>Tham gia xây dựng hệ thống nội bộ của công ty </p>.
+    Tham gia xây dựng hệ thống nội bộ của công ty.
      - Tôi đã sử dụng useHook, móc tùy chỉnh, thành phần tùy chỉnh, useSWR để tìm nạp và
      lắng nghe sự thay đổi dữ liệu trong quá trình thực hiện dự án.
      - Xây dựng hệ thống quản lý thương mại điện tử: 
-     + ngôn ngữ và công nghệ sử dụng: Reactjs, Nextjs Framework, Tailwind css, Ant
+     + ngôn ngữ và công nghệ sử dụng: Reactjs, Nextjs Framework, Tailwind css, Ant.
      + Xây dựng các chức năng: Quản lý sản xuất, Quản lý sản phẩm, Đặt hàng...
      + Dự án được thực hiện trong 4 tháng.
-     + Link Website: https://stag.insight.foodmap.asia/
+     + Link Website: https://stag.insight.foodmap.asia/.
      - Xây dựng hệ thống quản lý kho:
      + ngôn ngữ và công nghệ sử dụng: React Navite, Reactjs, Nextjs, Ant DesignBuild an
-     ứng dụng android và một số trang trong website quản trị
+     ứng dụng android và một số trang trong website quản trị.
      + Dự án được thực hiện trong 3 tháng.
-     + Link Website: https://stag-admin.efarm.asia/
+     + Link Website: https://stag-admin.efarm.asia/.
     `,
     en: `
     Participating in building the company's internal system.
@@ -144,5 +144,27 @@ export const about_work_experience_plan_1 = {
     android application and some pages in the admin website
     + Project was implemented in 3 months.
     + Link Website: https://stag-admin.efarm.asia/
+    `
+}
+
+export const about_work_experience_plan_2 = {
+    en: `
+    Korean company based in Vietnam.
+    - Working remote.
+    - Trained in teamwork and using github.
+    - Works with Slack, Notion, Jira and Zeplin apps.
+    - Participate in deploying and building android applications for 2 months.
+    - Participate in project maintenance and debugging (react native) for 4 months.
+    - Participate in fixing bugs and developing more features for canvas (nodejs) project
+    in 3 months.`,
+    vie: `
+    Công ty Hàn Quốc có trụ sở tại Việt Nam.
+     - Làm việc từ xa.
+     - Được đào tạo về làm việc nhóm và sử dụng github.
+     - Hoạt động với các ứng dụng Slack, Notion, Jira và Zeplin.
+     - Tham gia triển khai và xây dựng ứng dụng android trong 2 tháng.
+     - Tham gia bảo trì và debug dự án (react native) trong 4 tháng.
+     - Tham gia sửa lỗi và phát triển thêm tính năng cho dự án canvas (nodejs)
+     trong 3 tháng.
     `
 }

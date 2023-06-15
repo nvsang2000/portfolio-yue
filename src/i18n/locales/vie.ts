@@ -9,6 +9,7 @@ import {
   about_biography_off_code,
   about_title,
   about_work_experience_plan_1,
+  about_work_experience_plan_2,
   contract,
   full_name,
   home,
@@ -44,6 +45,8 @@ const vie = {
   [LANGUAGE_DESCRIPTION.about_biography_description_3]:
     about_biography_description_3.vie,
   [LANGUAGE_DESCRIPTION.about_work_experience_plan_1]: about_work_experience_plan_1.vie,
+  [LANGUAGE_DESCRIPTION.about_work_experience_plan_2]:
+    about_work_experience_plan_2.vie,
   [LANGUAGE_DESCRIPTION.about_biography_at_the_company]: about_biography_at_the_company.vie,
   [LANGUAGE_DESCRIPTION.about_biography_off_code]: about_biography_off_code.vie
 };

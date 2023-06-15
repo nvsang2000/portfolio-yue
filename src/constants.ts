@@ -18,5 +18,8 @@ export const LANGUAGE_DESCRIPTION = {
     about_biography_description_3: 'about_biography_description_3',
     about_biography_at_the_company: 'about_biography_at_the_company',
     about_biography_off_code: 'about_biography_off_code',
-    about_work_experience_plan_1: 'about_work_experience_plan_1'
+    about_work_experience_plan_1: 'about_work_experience_plan_1',
+    about_work_experience_plan_2: 'about_work_experience_plan_2',   
 }
+//cắt chuỗi thành mảng các phần tử dựa trên ký tự xuống dòng (\n) hoặc ký tự xuống dòng (\r). Ký tự + trong biểu thức chính quy đại diện cho việc tìm kiếm một hoặc nhiều ký tự xuống dòng liên tiếp.
+export const SPLIT_STRING = /[\n\r]+/
