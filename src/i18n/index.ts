@@ -7,14 +7,14 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      vie: {
+      vi: {
         translation: vie,
       },
       en: {
         translation: en,
       },
     },
-    fallbackLng: 'vie',
+    fallbackLng: 'vi',
     interpolation: {
       escapeValue: false,
     },

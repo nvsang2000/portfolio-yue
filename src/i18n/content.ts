@@ -1,77 +1,77 @@
 export const home = {
     en: 'home',
-    vie: 'trang chủ'
+    vi: 'trang chủ'
 }
 export const resume = {
     en: 'resume ',
-    vie: 'cv '
+    vi: 'cv '
 }
 export const about = {
     en: 'about',
-    vie: 'giới thiệu'
+    vi: 'giới thiệu'
 }
 export const projects = {
     en: 'projects',
-    vie: 'dự án'
+    vi: 'dự án'
 }
 export const contract = {
     en: 'contract',
-    vie: 'liên hệ'
+    vi: 'liên hệ'
 }
 export const skill = {
     en: 'skill',
-    vie: 'kĩ năng'
+    vi: 'kĩ năng'
 }
-export const work_experience = {
+export const work_exp = {
     en: 'work experience',
-    vie: 'kinh nghiệm'
+    vi: 'kinh nghiệm'
 }
 export const full_name = {
     en: 'NGUYEN VAN SANG',
-    vie: 'NGUYỄN VĂN SANG'
+    vi: 'NGUYỄN VĂN SANG'
 }
 export const mern_developer = {
     en: 'FULLSTACK DEVELOPER',
-    vie: 'MERN DEVELOPER'
+    vi: 'MERN DEVELOPER'
 }
 export const about_title = {
     en: 'Passion Fuels Purpose! ',
-    vie: 'Đam mê thúc đẩy mục đích!'
+    vi: 'Đam mê thúc đẩy mục đích!'
 }
-export const about_biography = {
+export const about_bio = {
     en: 'biography',
-    vie: 'tiểu sử'
+    vi: 'tiểu sử'
 }
-export const about_biography_at_the_company = {
+export const about_bio_company = {
    en: 'at the company',
-   vie: 'tại công ty'
+   vi: 'tại công ty'
 }
-export const about_biography_off_code = {
+export const about_bio_off_code = {
     en: 'Hours of Coding',
-    vie: 'Giờ Viết Code'
+    vi: 'Giờ Viết Code'
 }
-export const home_description_1 = {
+export const home_1 = {
     en: `As a Full-Stack Developer, 
     I am well versed in Web Development,
     MERN Development, Backend Development.`,
-    vie: `Là một lập trình viên Full-Stack, 
+    vi: `Là một lập trình viên Full-Stack, 
     tôi thành thạo về lập trình Website, Frontend và Backend.`
 }
-export const home_description_2 = {
+export const home_2 = {
     en: `With previous interest in Reactjs/React Native ,
     I also have internships and work at some companies to create apps
     meet the needs of system management.`,
-    vie: `Với mối quan tâm trước đó về Reactjs/React Native , 
+    vi: `Với mối quan tâm trước đó về Reactjs/React Native , 
     tôi cũng có thực tập và làm việc tại một số công ty để tạo ra những ứng dụng 
     đáp ứng cho nhu cầu quản lí hệ thống.`
 }
-export const home_description_3 = {
+export const home_3 = {
     en: `Kindly, explore my previous works in Projects section that appropriately 
     showcases my expertise in the field.`,
-    vie: `Bạn có thể khám phá các công việc trước đây của 
+    vi: `Bạn có thể khám phá các công việc trước đây của 
     tôi trong phần dự án thể hiện chuyên môn của tôi trong lĩnh vực này một cách thích hợp.`
 }
-export const about_biography_description_1 = {
+export const about_bio_1 = {
     en: `Hey Pro! My name is NGUYEN VAN SANG and I am a Full
     Stack Web Developer with expertise in MERN Development. I
     specialize in React, Express.js, Next.js,NPM, MongoDB, Chakra
@@ -79,21 +79,21 @@ export const about_biography_description_1 = {
     collaboration and problem-solving skills were developed through
     team projects, and I am highly motivated to apply my technical
     skills to new and exciting projects.`,
-    vie: `
+    vi: `
     Hello Pro ! Tên tôi là NGUYỄN VĂN SANG và tôi là Full Stack Web Developer có chuyên môn về Phát triển MERN. 
     Tôi có kinh nghiệm về React, Express.js, Next.js, Nestjs, NPM, MongoDB, Giao diện người dùng, CSS Tailwind, Node JS, HTML, CSS và JavaScript. 
     Sức mạnh của tôi kỹ năng hợp tác và giải quyết vấn đề được phát triển thông qua các dự án nhóm và 
     tôi rất có động lực để áp dụng kỹ thuật của mình kỹ năng cho các dự án mới và thú vị.
     `
 }
-export const about_biography_description_2 = {
+export const about_bio_2 = {
     en: `Some of my notable clone projects include ZOSTEL, a hostel
     booking website with 60+ destinations across India and Nepal,
     and FABALLEY, an Indian fashion e-commerce website with
     thousands of trendy and affordable fashion options. I also
     worked on cloning SHOP.COM, an online shopping website that
     offers thousands of products from various retailers.`,
-    vie: `
+    vi: `
     Một số dự án nhân bản đáng chú ý của tôi bao gồm ZOSTEL, một ký túc xá
     trang web đặt phòng với hơn 60 điểm đến trên khắp Ấn Độ và Nepal,
     và FABALLEY, một trang web thương mại điện tử thời trang Ấn Độ với
@@ -103,19 +103,19 @@ export const about_biography_description_2 = {
     `
 }
 
-export const about_biography_description_3 = {
+export const about_bio_3 = {
     en: `Overall,I am a friendly and dedicated developer who is always
     eager to take on new challenges and exceed expectations. I look
     forward to working with you!`,
-    vie: `
+    vi: `
     Về cái nhìn, tôi là một lập trình viên thân thiện và tận tâm, người luôn
     háo hức đón nhận những thử thách mới và vượt quá mong đợi. tôi nhìn
     về phía trước để làm việc với bạn!
     `
 }
 
-export const about_work_experience_plan_1 = {
-    vie: `
+export const about_work_exp_1 = {
+    vi: `
     Tham gia xây dựng hệ thống nội bộ của công ty.
      - Tôi đã sử dụng useHook, móc tùy chỉnh, thành phần tùy chỉnh, useSWR để tìm nạp và
      lắng nghe sự thay đổi dữ liệu trong quá trình thực hiện dự án.
@@ -147,7 +147,7 @@ export const about_work_experience_plan_1 = {
     `
 }
 
-export const about_work_experience_plan_2 = {
+export const about_work_exp_2 = {
     en: `
     Korean company based in Vietnam.
     - Working remote.
@@ -157,7 +157,7 @@ export const about_work_experience_plan_2 = {
     - Participate in project maintenance and debugging (react native) for 4 months.
     - Participate in fixing bugs and developing more features for canvas (nodejs) project
     in 3 months.`,
-    vie: `
+    vi: `
     Công ty Hàn Quốc có trụ sở tại Việt Nam.
      - Làm việc từ xa.
      - Được đào tạo về làm việc nhóm và sử dụng github.

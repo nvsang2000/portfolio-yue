@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { LANGUAGE_DESCRIPTION } from "~/constants";
+import { LANGUAGE } from "~/constants";
 
 const Skill = ({ name, x, y ,link="#"}: any) => {
   const inView: any = {x:x,y:y,transition:1}
@@ -23,7 +23,7 @@ const Skills = () => {
   const { t } = useTranslation();
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 mb-5 w-full text-center md:text-6xl md:mt-32">{t(LANGUAGE_DESCRIPTION.skill)}</h2>
+      <h2 className="font-bold text-8xl mt-64 mb-5 w-full text-center md:text-6xl md:mt-32">{t(LANGUAGE.skill)}</h2>
       <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark
       lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
       lg:bg-circularLightLg lg:dark:bg-circularDarkLg

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-import { LANGUAGE_DESCRIPTION } from "~/constants";
+import { LANGUAGE } from "~/constants";
 
 const CustomLink = ({ href, title, className }: any) => {
   const router = useRouter();
@@ -90,7 +90,7 @@ const Navbar = () => {
           <CustomLink href="/" title={t('home')} className={"mr-4"}></CustomLink>
           <CustomLink
             href="/about"
-            title={t(LANGUAGE_DESCRIPTION.about)}
+            title={t(LANGUAGE.about)}
             className={"mx-4"}
           ></CustomLink>
           <CustomLink
@@ -100,7 +100,7 @@ const Navbar = () => {
           ></CustomLink>
           <CustomLink
             href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${process.env.EMAIL_PROFILE}`}
-            title={t(LANGUAGE_DESCRIPTION.contract)}
+            title={t(LANGUAGE.contract)}
             className={"ml-6"}
           ></CustomLink>
         </nav>
@@ -152,25 +152,25 @@ const Navbar = () => {
             <CustomMobileLink
               toggle={handlleClick}
               href="/"
-              title={t(LANGUAGE_DESCRIPTION.home)}
+              title={t(LANGUAGE.home)}
               className={"uppercase"}
             ></CustomMobileLink>
             <CustomMobileLink
               toggle={handlleClick}
               href="/about"
-              title={t(LANGUAGE_DESCRIPTION.about)}
+              title={t(LANGUAGE.about)}
               className={"uppercase"}
             ></CustomMobileLink>
             <CustomMobileLink
               toggle={handlleClick}
               href="/projects"
-              title={t(LANGUAGE_DESCRIPTION.projects)}
+              title={t(LANGUAGE.projects)}
               className={"uppercase"}
             ></CustomMobileLink>
             <CustomMobileLink
               toggle={handlleClick}
               href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${process.env.EMAIL_PROFILE}`}
-              title={t(LANGUAGE_DESCRIPTION.contract)}
+              title={t(LANGUAGE.contract)}
               className={"uppercase"}
             ></CustomMobileLink>
           </nav>

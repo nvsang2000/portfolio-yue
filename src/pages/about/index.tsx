@@ -1,11 +1,17 @@
-import { Transitions, AnimatedText, WorkExperience, Layout, Skills } from "~/Components";
+import {
+  Transitions,
+  AnimatedText,
+  WorkExperience,
+  Layout,
+  Skills,
+} from "~/Components";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import ProfilePic from "public/images/profile/profile.jpg";
 import { useTranslation } from "react-i18next";
-import { LANGUAGE_DESCRIPTION } from "~/constants";
+import { LANGUAGE } from "~/constants";
 
 const AnimatedNumbers = ({ value }: any) => {
   const ref = useRef<any>(null);
@@ -45,23 +51,25 @@ const About = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text={t(LANGUAGE_DESCRIPTION.about_title)}
+            text={t(LANGUAGE.about_title)}
             className="mb-16 lg:!text-7xl md:!text-6xl sm:!text-4xl sm:!mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase tex-dark/75 dark:text-primary">
-                {t(LANGUAGE_DESCRIPTION.about_biography)}
+                {t(LANGUAGE.about_bio)}
               </h2>
-              <div className="font-medium">{t(LANGUAGE_DESCRIPTION.about_biography_description_1)} </div>
+              <div className="font-medium">
+                {t(LANGUAGE.about_bio_1)}{" "}
+              </div>
               {/* <div className="font-medium my-4">
-                {t(LANGUAGE_DESCRIPTION.about_biography_description_2)}
+                {t(LANGUAGE.about_bio_2)}
                </div> */}
               <div className="font-medium">
-                {t(LANGUAGE_DESCRIPTION.about_biography_description_3)}
-               </div>
+                {t(LANGUAGE.about_bio_3)}
+              </div>
             </div>
-            <div className="col-span-3 relative h-max rounded-2xl border-2 rounded-br-xl border-solid border-dark bg-light p-3 dark:bg-dark dark:border-primaryDark xl:col-span-4 md:order-1 md:col-span-8" >
+            <div className="col-span-3 relative h-max rounded-2xl border-2 rounded-br-xl border-solid border-dark bg-light p-3 dark:bg-dark dark:border-primaryDark xl:col-span-4 md:order-1 md:col-span-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-primary " />
               <Image
                 src={ProfilePic}
@@ -79,7 +87,7 @@ const About = () => {
                   <AnimatedNumbers value={5000} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-primaryDark xl:items-center md:text-lg sm:text-base xs:text-sm">
-                  {t(LANGUAGE_DESCRIPTION.about_biography_off_code)}
+                  {t(LANGUAGE.about_bio_off_code)}
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -87,7 +95,7 @@ const About = () => {
                   <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-primaryDark xl:items-center md:text-lg sm:text-base xs:text-sm">
-                {t(LANGUAGE_DESCRIPTION.about_biography_at_the_company)}
+                  {t(LANGUAGE.about_bio_company)}
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -95,7 +103,7 @@ const About = () => {
                   <AnimatedNumbers value={5} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-primaryDark xl:items-center md:text-lg sm:text-base xs:text-sm">
-                  {t(LANGUAGE_DESCRIPTION.projects)}
+                  {t(LANGUAGE.projects)}
                 </h2>
               </div>
             </div>

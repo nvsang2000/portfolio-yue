@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { useScroll, motion } from "framer-motion";
 import LiIcon from "./LiIcon";
 import { useTranslation } from "react-i18next";
-import { LANGUAGE_DESCRIPTION, SPLIT_STRING } from "~/constants";
+import { LANGUAGE, SPLIT_STRING } from "~/constants";
 
 const Details = ({ type, time, place, info }: any) => {
   const ref = useRef(null);
@@ -29,8 +29,8 @@ const Details = ({ type, time, place, info }: any) => {
 
 const WorkExperience = () => {
   const { t } = useTranslation();
-  const workExperiencePlan1 = t(LANGUAGE_DESCRIPTION.about_work_experience_plan_1)
-  const workExperiencePlan2 = t(LANGUAGE_DESCRIPTION.about_work_experience_plan_2)
+  const workExperiencePlan1 = t(LANGUAGE.about_work_exp_1)
+  const workExperiencePlan2 = t(LANGUAGE.about_work_exp_2)
   const ref1 = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref1,
@@ -42,7 +42,7 @@ const WorkExperience = () => {
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mt-64 mb-32 w-full text-center md:text-6xl md:mb-16 xs:text-4xl">
-        {t(LANGUAGE_DESCRIPTION.work_experience)}
+        {t(LANGUAGE.work_exp)}
       </h2>
 
       <div ref={ref1} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
